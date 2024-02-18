@@ -91,12 +91,14 @@
                     </div>
                 </div>
             </div>
-            <div class="btn mt-12 border-green-500 text-green-500 bg-transparent">See All Offers</div>
+            <div class="btn mt-12 border-green-500 text-green-500 bg-transparent">
+                <a>See All Offers</a>
+            </div>
 
         </section>
 
         <!-- Ticket Function Section  -->
-        <section class="mt-8 border-t-4 rounded-lg border-green-400">
+        <section id="see-all" class="mt-8 border-t-4 rounded-lg border-green-400">
             <div class="text-center my-4">
                 <h1 class="text-4xl py-8 font-bold">R Paribahan</h1>
                 <p class="mb-5 text-xl">Yes,you can run unit tests and view and result directly within the app. The
@@ -185,24 +187,32 @@
                             <h1 class="text-xl font-semibold text-gray-600">I</h1>
                             <h1 class="text-xl font-semibold text-gray-600">J</h1>
                         </div>
-                        <div class="grid grid-cols-4 gap-4 w-3/4">
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C1
+                        <div id="button" class="grid grid-cols-4 gap-4 w-3/4">
+                            <div id="A1"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                A1</div>
+                            <div id="A2"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                A2</div>
+                            <div id="A3"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                A3</div>
+                            <div id="A4"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                A4</div>
+                            <div id="B1"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                B1</div>
+                            <div id="B2"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                B2</div>
+                            <div id="B3"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                B3</div>
+                            <div id="B4"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                B4</div>
+                            <!-- <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C1
                             </div>
                             <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C2
                             </div>
@@ -265,7 +275,7 @@
                             <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J3
                             </div>
                             <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J4
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -277,48 +287,77 @@
                 <div class="p-6 w-96">
                     <h2 class="text-xl font-semibold pb-2 border-b-2 border-dashed border-gray-400">Select Your Seat
                     </h2>
-                    <div class=" bg-gray-200 rounded-md">
+                    <div class="mt-6 bg-gray-200 rounded-md">
                         <div>
                             <table class="table">
                                 <!-- head -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th>Name</th>
-                                        <th>Job</th>
-                                        <th>Favorite Color</th>
+                                        <th>Seat</th>
+                                        <th>Class</th>
+                                        <th>Price</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <!-- row 1 -->
                                     <tr>
-                                        <th>1</th>
-                                        <td>Cy Ganderton</td>
-                                        <td>Quality Control Specialist</td>
-                                        <td>Blue</td>
+                                        <td>C2</td>
+                                        <td>Economy</td>
+                                        <td>550</td>
                                     </tr>
-                                    <!-- row 2 -->
-                                    <tr class="hover">
-                                        <th>2</th>
-                                        <td>Hart Hagerty</td>
-                                        <td>Desktop Support Technician</td>
-                                        <td>Purple</td>
+                                    <tr class=" border-b-2 border-gray-500">
+                                        <td>C2</td>
+                                        <td>Economy</td>
+                                        <td>550</td>
                                     </tr>
-                                    <!-- row 3 -->
-                                    <tr>
-                                        <th>3</th>
-                                        <td>Brice Swyre</td>
-                                        <td>Tax Accountant</td>
-                                        <td>Red</td>
+                                    <tr class="">
+                                        <td class="font-semibold">Total Price</td>
+                                        <td></td>
+                                        <td class="font-semibold"> 1100</td>
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                        <div class="p-4">
+                            <span class="p-2 bg-white rounded">
+                                <input type="text" class="p-2 bg-transparent" placeholder="Have any Cupon">
+                                <button class="bg-green-500 text-white rounded px-4 py-1">Apply</button>
+                            </span>
+                        </div>
+                        <div class="px-4 pb-2 flex justify-between">
+                            <h2 class="font-semibold">Grand Total</h2>
+                            <h2 class="font-semibold">BDT 1000</h2>
+                        </div>
+                    </div>
+                    <!-- For Input  -->
+                    <div class="mt-4 w-full">
+                        <div class="mt-2">
+                            <h2 class="font-semibold">Passenger Name*</h2>
+                            <input type="text" class="border-2 p-2 px-20 rounded-lg" placeholder="Enter Your Name">
+                        </div>
+                        <div class="mt-2">
+                            <h2 class="font-semibold">Phone Number*</h2>
+                            <input type="text" class="border-2 p-2 px-20 rounded-lg" placeholder="Enter Your Name">
+                        </div>
+                        <div class="mt-2">
+                            <h2 class="font-semibold">Email ID*</h2>
+                            <input type="text" class="border-2 p-2 px-20 rounded-lg" placeholder="Enter Your Name">
+                        </div>
+                        <div class="text-center mt-2">
+                            <button class="bg-green-500 w-full p-2 rounded">Next</button>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h3 class=""><a href="#" class="border-b-2 border-gray-400 ">Tarm and Condition</a></h3>
+                            <h3 class=""><a href="#" class="border-b-2 border-gray-400 ">Cancelation Policy</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+
+    <script src="/bus-Ticket.js"></script>
 </body>
 
 </html>
