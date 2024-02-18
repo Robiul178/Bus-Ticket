@@ -27,9 +27,12 @@ function seeClickButton(e) {
 
     //hidden button
     if (newSelecSeat === 4) {
-        // alert('Select ses')
         disableButton();
-    }
+    };
+
+
+    showSelectedSeat();
+
 }
 
 function disableButton() {
@@ -37,4 +40,9 @@ function disableButton() {
     for (const s of seats) {
         s.classList.add('btn-disabled')
     }
+};
+
+
+function showSelectedSeat() {
+
 }
