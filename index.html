@@ -119,7 +119,7 @@
                         </div>
                         <div class="flex p-4 text-xl font-semibold bg-green-200 rounded-lg">
                             <img src="/images/seat-green.png " alt="">
-                            <p class="text-green-500">0 Seats Left</p>
+                            <p class="text-green-500"><span id="totalSeats">40</span> Seat left</p>
                         </div>
                     </div>
 
@@ -187,95 +187,133 @@
                             <h1 class="text-xl font-semibold text-gray-600">I</h1>
                             <h1 class="text-xl font-semibold text-gray-600">J</h1>
                         </div>
-                        <div id="button" class="grid grid-cols-4 gap-4 w-3/4">
-                            <div id="A1"
-                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+
+
+                        <!-- try  -->
+
+                        <!-- try end  -->
+                        <div id="ticket-div" class="grid grid-cols-4 gap-4 w-3/4">
+                            <div id="ticket-button"
+                                class=" btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 A1</div>
-                            <div id="A2"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 A2</div>
-                            <div id="A3"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 A3</div>
-                            <div id="A4"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 A4</div>
-                            <div id="B1"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 B1</div>
-                            <div id="B2"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 B2</div>
-                            <div id="B3"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
                                 B3</div>
-                            <div id="B4"
+                            <div id="ticket-button"
                                 class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
-                                B4</div>
-                            <!-- <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C1
+                                B4
                             </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I4
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J1
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J2
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J3
-                            </div>
-                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J4
-                            </div> -->
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                C1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                C2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                C3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                C4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                D1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                D2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                D3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                D4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                E1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                E2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                E3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                E4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                F1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                F2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                F3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                F4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                G1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                G2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                G3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                G4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                H1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                H2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                H3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                H4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                I1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                I2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                I3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                I4</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                J1</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                J2</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                J3</div>
+                            <div id="ticket-button"
+                                class="btn text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">
+                                J4</div>
 
                         </div>
                     </div>
@@ -285,12 +323,12 @@
 
                 <!-- select Seat Right -->
                 <div class="p-6 w-96">
-                    <h2 class="text-xl font-semibold pb-2 border-b-2 border-dashed border-gray-400">Select Your Seat
+                    <h2 class="text-xl font-semibold pb-2 border-b-2 border-dashed border-gray-400">Selected Seat :
+                        <span id="selectTicketNumber">0</span>
                     </h2>
                     <div class="mt-6 bg-gray-200 rounded-md">
                         <div>
                             <table class="table">
-                                <!-- head -->
                                 <thead>
                                     <tr>
                                         <th>Seat</th>
@@ -299,21 +337,10 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- row 1 -->
                                     <tr>
-                                        <td>C2</td>
+                                        <td id="clickedButton"></td>
                                         <td>Economy</td>
                                         <td>550</td>
-                                    </tr>
-                                    <tr class=" border-b-2 border-gray-500">
-                                        <td>C2</td>
-                                        <td>Economy</td>
-                                        <td>550</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td class="font-semibold">Total Price</td>
-                                        <td></td>
-                                        <td class="font-semibold"> 1100</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -355,7 +382,6 @@
             </div>
         </section>
     </main>
-
 
     <script src="/bus-Ticket.js"></script>
 </body>
