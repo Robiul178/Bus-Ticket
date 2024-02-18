@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>Bus Ticket</title>
+</head>
+
+<body class="max-w-[1400px] mx-auto">
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-4xl font-bold">R-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn">Button</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero min-h-screen" style="background-image: url(/images/banner.png);">
+            <div class="hero-content text-center text-neutral-content">
+                <div>
+                    <h1 class="mb-5 text-6xl font-bold">End-to-End travel with <br> <span class="text-green-600">R
+                            Paribahan</span> </h1>
+                    <p class="mb-5 text-xl">Yes,you can run unit tests and view and result directly within the app. The
+                        <br>
+                        integrated testing features allow for a streamlined.
+                    </p>
+                    <button class="btn bg-green-500 border-none text-4xl font-bold">Buy Ticket</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- offer Section  -->
+        <section class="py-20">
+            <h1 class="text-center text-4xl font-bold mt-12">Best Offers For You</h1>
+            <div class="flex justify-between mt-12">
+                <div class="flex justify-center gap-14 bg-[#FFBF0F] w-2/5 p-8 rounded-xl ">
+                    <div class="">
+                        <h1 class="text-2xl font-bold">15% OFF</h1>
+                        <h3 class="font-semibold">on your next purchase</h3>
+                        <p class="text-gray-500">use by January 2024</p>
+                    </div>
+                    <div class="">
+                        <h1 class="text-2xl font-bold">NEW15</h1>
+                        <p class="text-gray-500">Coupon Code</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center gap-14 bg-[#F78C9C] w-2/5 p-8 rounded-xl">
+                    <div>
+                        <h1 class="text-2xl font-bold">15% OFF</h1>
+                        <h3 class="font-semibold">on your next purchase</h3>
+                        <p class="text-gray-500">use by January 2024</p>
+                    </div>
+                    <div class="">
+                        <h1 class="text-2xl font-bold">NEW15</h1>
+                        <p class="text-gray-500">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn mt-12 border-green-500 text-green-500 bg-transparent">See All Offers</div>
+
+        </section>
+
+        <!-- Ticket Function Section  -->
+        <section class="mt-8 border-t-4 rounded-lg border-green-400">
+            <div class="text-center my-4">
+                <h1 class="text-4xl py-8 font-bold">R Paribahan</h1>
+                <p class="mb-5 text-xl">Yes,you can run unit tests and view and result directly within the app. The
+                    <br>
+                    integrated testing features allow for a streamlined.
+                </p>
+            </div>
+
+            <div class="flex">
+                <div class="w-5/6 border-r-4 border-dashed border-green-500 p-6">
+                    <div class="flex p-4  justify-between ">
+                        <div class="flex">
+                            <img src="/images/bus-logo.png" alt="">
+                            <span class="w-full">
+                                <h1 class="text-xl font-bold">Greenline Paribahan</h1>
+                                <p class="text-gray-400">Coach-009-WEB! AC_Business</p>
+                            </span>
+                        </div>
+                        <div class="flex p-4 text-xl font-semibold bg-green-200 rounded-lg">
+                            <img src="/images/seat-green.png " alt="">
+                            <p class="text-green-500">0 Seats Left</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-[#F7F8F8]  p-4 mt-6 rounded-xl font-semibold">
+                        <div class="flex justify-between p-4 border-b-2 border-dashed border-gray-400">
+                            <h2 class="text-xl text-gray-500">Route</h2>
+                            <h2 class="text-xl">Dhaka-Sylhet</h2>
+                        </div>
+                        <div class="flex justify-between p-4 border-b-2 border-dashed border-gray-400">
+                            <h2 class="text-xl text-gray-500">Departure Time</h2>
+                            <h2 class="text-xl">9:00 PM</h2>
+                        </div>
+                        <div class="flex justify-between p-4">
+                            <button class="bg-[#EAEBEC] p-3 rounded-md">Boarding Point - Laxmipur</button>
+                            <button class="bg-[#EAEBEC] p-3 rounded-md">Dropping Point - Bogura</button>
+                            <button class="bg-[#EAEBEC] p-3 rounded-md">Est. Time - 11 Hour</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Ticket Price  -->
+                <div class="relative left-12 top-16 text-center">
+                    <img class="relative left-5" src="/images/fare.png" alt="">
+                    <h1 class="text-2xl font-bold">550 Taka</h1>
+                    <p class="text-gray-500 text-lg">Per Seat</p>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!-- Select Seat Section  -->
+        <section class="select-seat mt-12">
+            <div class="flex ">
+                <!-- select Seat left  -->
+                <div class="w-3/4 p-6 border-r-4 border-dashed border-gray-400 ">
+                    <h2 class="text-xl font-semibold pb-2 border-b-2 border-dashed border-gray-400">Select Your Seat
+                    </h2>
+                    <div class="flex justify-between p-4 border-b-2 border-dashed border-gray-400">
+                        <span class="flex">
+                            <img src="/images/seat-gray.png" alt="">
+                            <p class="text-lg font-semibold text-gray-500">Available</p>
+                        </span>
+                        <span class="flex">
+                            <img src="/images/seat-green-filled.png" alt="">
+                            <p class="text-lg font-semibold text-green-500">Selected</p>
+                        </span>
+                    </div>
+
+                    <!-- seat option  -->
+
+                    <div class="flex justify-around mt-10">
+                        <div class="grid grid-rows-10 gap-y-8 mt-2">
+                            <h1 class="text-xl font-semibold text-gray-600">A</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">B</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">C</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">D</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">E</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">F</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">G</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">H</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">I</h1>
+                            <h1 class="text-xl font-semibold text-gray-600">J</h1>
+                        </div>
+                        <div class="grid grid-cols-4 gap-4 w-3/4">
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">A4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">B4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">C4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">D4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">E4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">F4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">G4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">H4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">I4
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J1
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J2
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J3
+                            </div>
+                            <div class="text-xl font-semibold text-gray-600 bg-slate-300 p-4 rounded-md text-center">J4
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- select Seat Right -->
+                <div class="p-6 w-96">
+                    <h2 class="text-xl font-semibold pb-2 border-b-2 border-dashed border-gray-400">Select Your Seat
+                    </h2>
+                    <div class=" bg-gray-200 rounded-md">
+                        <div>
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Name</th>
+                                        <th>Job</th>
+                                        <th>Favorite Color</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- row 1 -->
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Cy Ganderton</td>
+                                        <td>Quality Control Specialist</td>
+                                        <td>Blue</td>
+                                    </tr>
+                                    <!-- row 2 -->
+                                    <tr class="hover">
+                                        <th>2</th>
+                                        <td>Hart Hagerty</td>
+                                        <td>Desktop Support Technician</td>
+                                        <td>Purple</td>
+                                    </tr>
+                                    <!-- row 3 -->
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Brice Swyre</td>
+                                        <td>Tax Accountant</td>
+                                        <td>Red</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
