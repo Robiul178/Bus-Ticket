@@ -29,8 +29,6 @@ function seeClickButton(e) {
 
     currentSeatElement.innerText = newCurrentSeat;
 
-
-
     //selected ticket number show
     const selectedTicketNumber = document.getElementById('selectTicketNumber');
     const selectSeatText = selectedTicketNumber.innerText;
@@ -38,26 +36,18 @@ function seeClickButton(e) {
     const newSelecSeat = selectSeat + 1;
     selectedTicketNumber.innerText = newSelecSeat;
 
-    // console.log('selected seat', newSelecSeat)
-
-
     //calculate ticket price
     const totalSelectedSeat = newSelecSeat;
     const ticketPrice = 550;
     const total = totalSelectedSeat * ticketPrice;
 
-    const initialPrice = document.getElementById('ticketPrice');
-    // total.innerText = 'price';
-    const p = document.createElement('p')
-    p.innerHTML = `${total}`
-    initialPrice.appendChild(p);
+    const grandTotal = document.getElementById('grandTotal');
+    grandTotal.innerHTML = `${total}`
 
-    // initialPrice.innerText = '';
-    console.log('added pricess', initialPrice.ATTRIBUTE_NODE(p))
+    const grandTotal2 = document.getElementById('grandTotal2');
+    grandTotal2.innerHTML = `${total}`
 
 
-
-    // console.log(typeof (setPrice))
     //hidden button
     if (newSelecSeat === 4) {
         disableButton();
