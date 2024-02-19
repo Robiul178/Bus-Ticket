@@ -81,18 +81,21 @@
 
                 <div class="flex justify-center gap-14 bg-[#F78C9C] w-2/5 p-8 rounded-xl">
                     <div>
-                        <h1 class="text-2xl font-bold">15% OFF</h1>
+                        <h1 class="text-2xl font-bold">20% OFF</h1>
                         <h3 class="font-semibold">on your next purchase</h3>
                         <p class="text-gray-500">use by January 2024</p>
                     </div>
                     <div class="">
-                        <h1 class="text-2xl font-bold">NEW15</h1>
+                        <h1 class="text-2xl font-bold">Couple 20</h1>
                         <p class="text-gray-500">Coupon Code</p>
                     </div>
                 </div>
             </div>
-            <div class="btn mt-12 border-green-500 text-green-500 bg-transparent">
+            <!-- <div class="btn mt-12 text-center border-green-500 text-green-500 bg-transparent">
                 <a>See All Offers</a>
+            </div> -->
+            <div class="text-center mt-2">
+                <button class=" p-4 border-2 rounded border-green-400 ">See All</button>
             </div>
 
         </section>
@@ -324,10 +327,9 @@
                 <!-- select Seat Right -->
                 <div class="p-6 w-96">
                     <h2 class="text-xl font-semibold pb-2 border-b-2 border-dashed border-gray-400">Selected Seat
-
                     </h2>
                     <div class="mt-6 bg-gray-200 rounded-md">
-                        <div>
+                        <div class="mt-6">
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -337,22 +339,25 @@
                                         <th>Price</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr id="show-select-ticket">
-
-                                    </tr>
-                                </tbody>
                             </table>
+                            <div class="p-6">
+                                <ul id="ticketList"></ul>
+                            </div>
+                            <div class="flex justify-between p-6 border-t-2 border-gray-500">
+                                <h2>Total Price</h2>
+                                <p id="ticketPrice"></p>
+                            </div>
                         </div>
-                        <div class="p-4">
+                        <div id="cuppondiv" class="p-4">
                             <span class="p-2 bg-white rounded">
-                                <input type="text" class="p-2 bg-transparent" placeholder="Have any Cupon">
-                                <button class="bg-green-500 text-white rounded px-4 py-1">Apply</button>
+                                <input id="cuponInput" type="text" class="p-2 bg-transparent"
+                                    placeholder="Have any Cupon">
+                                <button id="cuppoButton"
+                                    class="bg-green-500 text-white rounded px-4 py-1">Apply</button>
                             </span>
                         </div>
-                        <div class="px-4 pb-2 flex justify-between">
+                        <div id="grandTotal" class="px-4 pb-2 flex justify-between">
                             <h2 class="font-semibold">Grand Total</h2>
-                            <h2 class="font-semibold">BDT 1000</h2>
                         </div>
                     </div>
                     <!-- For Input  -->
@@ -370,7 +375,21 @@
                             <input type="text" class="border-2 p-2 px-20 rounded-lg" placeholder="Enter Your Name">
                         </div>
                         <div class="text-center mt-2">
-                            <button class="bg-green-500 w-full p-2 rounded">Next</button>
+                            <!-- <button class="bg-green-500 w-full p-2 rounded">Next</button> -->
+                            <button class="btn bg-green-500 w-full p-2 rounded"
+                                onclick="my_modal_4.showModal()">Next</button>
+                            <dialog id="my_modal_4" class="modal">
+                                <div class="modal-box w-11/12 max-w-5xl">
+                                    <h3 class="font-bold text-lg">Hello!</h3>
+                                    <p class="py-4">Click the button below to close</p>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <!-- if there is a button, it will close the modal -->
+                                            <button class="btn">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
                         </div>
                         <div class="flex justify-between mt-4">
                             <h3 class=""><a href="#" class="border-b-2 border-gray-400 ">Tarm and Condition</a></h3>
@@ -383,6 +402,7 @@
     </main>
 
     <script src="/bus-Ticket.js"></script>
+    <script src="/cuponCodeHandle.js"></script>
 </body>
 
 </html>
